@@ -5,6 +5,7 @@ name = "pypi"
 
 [scripts]
 sample = "python src/sample.py"
+format = "black src"
 
 [packages]
 numpy = "*"
